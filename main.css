@@ -1,0 +1,33 @@
+ div {
+    width: 650px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+ }
+
+ .without {
+    background-color: red;
+ }
+
+ .without > p {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding: 30px;
+    margin: 50px;
+    border: 2px dotted black;
+ }
+
+ .with {
+    background-color: green;
+    box-sizing: border-box;
+ }
+
+ .with > p {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding: 30px;
+    margin: 50px;
+    border: 2px dotted black;
+ }
